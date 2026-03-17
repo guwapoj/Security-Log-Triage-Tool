@@ -21,6 +21,10 @@ Export your own Windows Security Event logs from Event Viewer, run a single comm
 
 ---
 
+## Demo
+
+[![Watch the Demo](screenshot/terminal.png)]([your-linkedin-post-url-here](https://www.linkedin.com/feed/update/urn:li:activity:7439710996409122816/?originTrackingId=v53nAQfPf05jPHuO6dGdGw%3D%3D))
+
 ## Preview
 
 ![Terminal Output](screenshot/terminal.png)
