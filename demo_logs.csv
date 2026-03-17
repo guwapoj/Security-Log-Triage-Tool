@@ -1,0 +1,40 @@
+Keywords,Date and Time,Source,Event ID,Task Category,Description
+Audit Success,3/15/2026 8:01:12 AM,Microsoft-Windows-Security-Auditing,4672,Special Logon,Special privileges assigned to new logon.
+Audit Success,3/15/2026 8:01:13 AM,Microsoft-Windows-Security-Auditing,4624,Logon,An account was successfully logged on.
+Audit Failure,3/15/2026 8:04:21 AM,Microsoft-Windows-Security-Auditing,4625,Logon,An account failed to log on.
+Audit Failure,3/15/2026 8:04:35 AM,Microsoft-Windows-Security-Auditing,4625,Logon,An account failed to log on.
+Audit Failure,3/15/2026 8:04:48 AM,Microsoft-Windows-Security-Auditing,4625,Logon,An account failed to log on.
+Audit Failure,3/15/2026 8:05:02 AM,Microsoft-Windows-Security-Auditing,4625,Logon,An account failed to log on.
+Audit Failure,3/15/2026 8:05:17 AM,Microsoft-Windows-Security-Auditing,4625,Logon,An account failed to log on.
+Audit Success,3/15/2026 8:05:33 AM,Microsoft-Windows-Security-Auditing,4624,Logon,An account was successfully logged on.
+Audit Success,3/15/2026 8:05:34 AM,Microsoft-Windows-Security-Auditing,4672,Special Logon,Special privileges assigned to new logon.
+Audit Success,3/15/2026 9:12:04 AM,Microsoft-Windows-Security-Auditing,4624,Logon,An account was successfully logged on.
+Audit Success,3/15/2026 9:12:05 AM,Microsoft-Windows-Security-Auditing,4672,Special Logon,Special privileges assigned to new logon.
+Audit Failure,3/15/2026 9:45:11 AM,Microsoft-Windows-Security-Auditing,4625,Logon,An account failed to log on.
+Audit Failure,3/15/2026 9:45:22 AM,Microsoft-Windows-Security-Auditing,4625,Logon,An account failed to log on.
+Audit Failure,3/15/2026 9:45:34 AM,Microsoft-Windows-Security-Auditing,4625,Logon,An account failed to log on.
+Audit Success,3/15/2026 10:03:55 AM,Microsoft-Windows-Security-Auditing,4740,User Account Management,A user account was locked out.
+Audit Success,3/15/2026 10:15:30 AM,Microsoft-Windows-Security-Auditing,4624,Logon,An account was successfully logged on.
+Audit Success,3/15/2026 10:15:31 AM,Microsoft-Windows-Security-Auditing,4672,Special Logon,Special privileges assigned to new logon.
+Audit Failure,3/15/2026 11:22:08 AM,Microsoft-Windows-Security-Auditing,4625,Logon,An account failed to log on.
+Audit Failure,3/15/2026 11:22:19 AM,Microsoft-Windows-Security-Auditing,4625,Logon,An account failed to log on.
+Audit Failure,3/15/2026 11:22:30 AM,Microsoft-Windows-Security-Auditing,4625,Logon,An account failed to log on.
+Audit Failure,3/15/2026 11:22:41 AM,Microsoft-Windows-Security-Auditing,4625,Logon,An account failed to log on.
+Audit Failure,3/15/2026 11:22:52 AM,Microsoft-Windows-Security-Auditing,4625,Logon,An account failed to log on.
+Audit Failure,3/15/2026 11:23:03 AM,Microsoft-Windows-Security-Auditing,4625,Logon,An account failed to log on.
+Audit Success,3/15/2026 11:23:45 AM,Microsoft-Windows-Security-Auditing,4624,Logon,An account was successfully logged on.
+Audit Success,3/15/2026 11:23:46 AM,Microsoft-Windows-Security-Auditing,4672,Special Logon,Special privileges assigned to new logon.
+Audit Success,3/15/2026 12:00:01 PM,Microsoft-Windows-Security-Auditing,4740,User Account Management,A user account was locked out.
+Audit Success,3/15/2026 12:30:15 PM,Microsoft-Windows-Security-Auditing,4624,Logon,An account was successfully logged on.
+Audit Success,3/15/2026 12:30:16 PM,Microsoft-Windows-Security-Auditing,4672,Special Logon,Special privileges assigned to new logon.
+Audit Failure,3/15/2026 1:14:09 PM,Microsoft-Windows-Security-Auditing,4625,Logon,An account failed to log on.
+Audit Failure,3/15/2026 1:14:21 PM,Microsoft-Windows-Security-Auditing,4625,Logon,An account failed to log on.
+Audit Success,3/15/2026 2:05:44 PM,Microsoft-Windows-Security-Auditing,4624,Logon,An account was successfully logged on.
+Audit Success,3/15/2026 2:05:45 PM,Microsoft-Windows-Security-Auditing,4672,Special Logon,Special privileges assigned to new logon.
+Audit Success,3/15/2026 3:30:22 PM,Microsoft-Windows-Security-Auditing,4624,Logon,An account was successfully logged on.
+Audit Success,3/15/2026 3:30:23 PM,Microsoft-Windows-Security-Auditing,4672,Special Logon,Special privileges assigned to new logon.
+Audit Failure,3/15/2026 4:47:55 PM,Microsoft-Windows-Security-Auditing,4625,Logon,An account failed to log on.
+Audit Failure,3/15/2026 4:48:06 PM,Microsoft-Windows-Security-Auditing,4625,Logon,An account failed to log on.
+Audit Failure,3/15/2026 4:48:17 PM,Microsoft-Windows-Security-Auditing,4625,Logon,An account failed to log on.
+Audit Success,3/15/2026 5:01:33 PM,Microsoft-Windows-Security-Auditing,4624,Logon,An account was successfully logged on.
+Audit Success,3/15/2026 5:01:34 PM,Microsoft-Windows-Security-Auditing,4672,Special Logon,Special privileges assigned to new logon.
