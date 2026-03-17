@@ -28,8 +28,6 @@ Export your own Windows Security Event logs from Event Viewer, run a single comm
 ---
 ## Preview
 
-![Terminal Output](screenshot/terminal.png)
-
 ![Report Preview](screenshot/report.png)
 
 ![Report Preview](screenshot/report2.png)
