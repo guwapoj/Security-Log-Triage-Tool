@@ -10,6 +10,13 @@
 ![Purpose](https://img.shields.io/badge/Purpose-Educational-green?style=flat)
 
 <!-- SCREENSHOT: Add a screenshot of the HTML report here once generated -->
+## Example Report
+![Report Preview](screenshots/report.png)
+![Report Preview](screenshots/report2.png)
+
+## Example Terminal
+![Terminal Preview](screenshots/terminal.png)
+
 <!-- To add: save your screenshot to /screenshots/report_preview.png and uncomment the line below -->
 <!-- ![Report Preview](screenshots/report_preview.png) -->
 
