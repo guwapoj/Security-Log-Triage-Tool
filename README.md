@@ -1,6 +1,6 @@
 <div align="center">
 
-#  Security Log Triage Tool
+# Security Log Triage Tool
 
 **Hands-on SOC analysis using your own Windows Security logs — no SIEM required.**
 
@@ -9,22 +9,11 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=flat&logo=windows&logoColor=white)
 ![Purpose](https://img.shields.io/badge/Purpose-Educational-green?style=flat)
 
-<!-- SCREENSHOT: Add a screenshot of the HTML report here once generated -->
-## Example Report
-![Report Preview](screenshot/report.png)
-![Report Preview](screenshot/report2.png)
-
-## Example Terminal
-![Terminal Preview](screenshot/terminal.png)
-
-<!-- To add: save your screenshot to /screenshots/report_preview.png and uncomment the line below -->
-<!-- ![Report Preview](screenshots/report_preview.png) -->
-
 </div>
 
 ---
 
-##  Overview
+## Overview
 
 Learning SOC analysis is hard when you have no logs to practice with. This tool fixes that.
 
@@ -32,18 +21,28 @@ Export your own Windows Security Event logs from Event Viewer, run a single comm
 
 ---
 
-##  Features
+## Preview
 
--  Detects **failed login attempts** (Event ID 4625)
--  Flags **possible brute force** activity (5+ failures)
--  Identifies **successful logins after failures** — possible account compromise
--  Detects **account lockouts** (Event ID 4740)
--  Tracks **privileged account logins** (Event ID 4672)
--  Generates a clean **HTML incident report**
+![Terminal Output](screenshot/terminal.png)
+
+![Report Preview](screenshot/report.png)
+
+![Report Preview](screenshot/report2.png)
 
 ---
 
-##  Detection Rules
+## Features
+
+- Detects **failed login attempts** (Event ID 4625)
+- Flags **possible brute force** activity (5+ failures)
+- Identifies **successful logins after failures** — possible account compromise
+- Detects **account lockouts** (Event ID 4740)
+- Tracks **privileged account logins** (Event ID 4672)
+- Generates a clean **HTML incident report**
+
+---
+
+## Detection Rules
 
 | Event ID | Event Type | Detection |
 |:---:|---|---|
@@ -54,7 +53,7 @@ Export your own Windows Security Event logs from Event Viewer, run a single comm
 
 ---
 
-##  Getting Started
+## Getting Started
 
 ### 1. Export your Windows Security Logs
 
@@ -72,6 +71,12 @@ pip install -r requirements.txt
 
 ### 3. Run the tool
 
+**Option A — Try it instantly with the included demo logs:**
+```bash
+python triage.py --file sample_logs/demo_logs.csv
+```
+
+**Option B — Use your own exported Windows Security logs:**
 ```bash
 python triage.py --file sample_logs/security_logs.csv
 ```
@@ -82,11 +87,7 @@ Open `reports/security_report.html` in your browser.
 
 ---
 
-##  Example Output
-
-<!-- SCREENSHOT: Add a screenshot of your terminal output here -->
-<!-- Save to /screenshots/terminal_output.png and uncomment the line below -->
-<!-- ![Terminal Output](screenshots/terminal_output.png) -->
+## Example Output
 
 ```
 Loading logs...
@@ -102,13 +103,9 @@ ALERT: Successful login(s) detected after 37 failure(s) — possible account com
 Report generated: reports/security_report.html
 ```
 
-<!-- SCREENSHOT: Add a screenshot of the full HTML report output here -->
-<!-- Save to /screenshots/html_report.png and uncomment the line below -->
-<!-- ![HTML Report](screenshots/html_report.png) -->
-
 ---
 
-##  Project Structure
+## Project Structure
 
 ```
 security-log-triage/
@@ -120,6 +117,7 @@ security-log-triage/
 ├── requirements.txt
 │
 ├── sample_logs/            # Drop your exported CSV here
+│   ├── demo_logs.csv       # Included demo data — run this to try instantly
 │   └── .gitkeep
 └── reports/                # Generated reports saved here
     └── .gitkeep
@@ -127,7 +125,7 @@ security-log-triage/
 
 ---
 
-##  Requirements
+## Requirements
 
 - Python 3.8+
 - pandas
@@ -138,18 +136,18 @@ pip install pandas
 
 ---
 
-##  Who This Is For
+## Who This Is For
 
 | Audience | How it helps |
 |---|---|
-|  Cybersecurity students | Hands-on log analysis without an enterprise lab |
-|  Aspiring SOC analysts | Practice real detection workflows |
-|  Detection engineering learners | Understand how detection rules are built |
-|  Curious Windows users | See what's actually happening on your machine |
+| Cybersecurity students | Hands-on log analysis without an enterprise lab |
+| Aspiring SOC analysts | Practice real detection workflows |
+| Detection engineering learners | Understand how detection rules are built |
+| Curious Windows users | See what's actually happening on your machine |
 
 ---
 
-##  Future Improvements
+## Future Improvements
 
 - [ ] Off-hours login detection
 - [ ] IP-based attack correlation
@@ -159,7 +157,7 @@ pip install pandas
 
 ---
 
-##  Disclaimer
+## Disclaimer
 
 This tool is intended for **educational purposes only**. Only analyze logs on systems you own or have explicit permission to inspect.
 
