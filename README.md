@@ -9,6 +9,10 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=flat&logo=windows&logoColor=white)
 ![Purpose](https://img.shields.io/badge/Purpose-Educational-green?style=flat)
 
+<!-- SCREENSHOT: Add a screenshot of the HTML report here once generated -->
+<!-- To add: save your screenshot to /screenshots/report_preview.png and uncomment the line below -->
+<!-- ![Report Preview](screenshots/report_preview.png) -->
+
 </div>
 
 ---
@@ -73,6 +77,10 @@ Open `reports/security_report.html` in your browser.
 
 ##  Example Output
 
+<!-- SCREENSHOT: Add a screenshot of your terminal output here -->
+<!-- Save to /screenshots/terminal_output.png and uncomment the line below -->
+<!-- ![Terminal Output](screenshots/terminal_output.png) -->
+
 ```
 Loading logs...
 Running security analysis...
@@ -86,6 +94,10 @@ ALERT: Successful login(s) detected after 37 failure(s) — possible account com
 
 Report generated: reports/security_report.html
 ```
+
+<!-- SCREENSHOT: Add a screenshot of the full HTML report output here -->
+<!-- Save to /screenshots/html_report.png and uncomment the line below -->
+<!-- ![HTML Report](screenshots/html_report.png) -->
 
 ---
 
@@ -101,7 +113,9 @@ security-log-triage/
 ├── requirements.txt
 │
 ├── sample_logs/            # Drop your exported CSV here
+│   └── .gitkeep
 └── reports/                # Generated reports saved here
+    └── .gitkeep
 ```
 
 ---
@@ -111,7 +125,6 @@ security-log-triage/
 - Python 3.8+
 - pandas
 
-Install with:
 ```bash
 pip install pandas
 ```
