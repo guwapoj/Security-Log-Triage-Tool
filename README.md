@@ -32,6 +32,8 @@ Export your own Windows Security Event logs from Event Viewer, run a single comm
 
 ![Report Preview](screenshot/report2.png)
 
+![Report Preview](screenshot/noalerts.png)
+
 ---
 
 ## Features
